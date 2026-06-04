@@ -33,9 +33,8 @@ foreach ($c in $contacts) {
     $isz = 22; $scale = [math]::Round($isz / 24, 4); $ioff = [math]::Round($cx - $isz / 2, 2)
     $sb = New-Object System.Text.StringBuilder
     [void]$sb.AppendLine("<svg xmlns='http://www.w3.org/2000/svg' width='$maxW' height='$H' viewBox='0 0 $maxW $H' role='img'>")
-    [void]$sb.AppendLine("<defs><linearGradient id='c' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#31AED8'/><stop offset='1' stop-color='#295072'/></linearGradient></defs>")
-    [void]$sb.AppendLine("<circle cx='$cx' cy='$cy' r='$r' fill='url(#c)'/>")
-    [void]$sb.AppendLine("<g transform='translate($ioff,$ioff) scale($scale)'><path d='$($d)' fill='#ffffff'/></g>")
+    [void]$sb.AppendLine("<circle cx='$cx' cy='$cy' r='$r' fill='#f2f4f6'/>")
+    [void]$sb.AppendLine("<g transform='translate($ioff,$ioff) scale($scale)'><path d='$($d)' fill='#31AED8'/></g>")
     [void]$sb.AppendLine("<text x='$tx' y='25' font-family=`"$ff`" font-size='$fs' font-weight='600' fill='#e9f3f8'>$($c.text)</text>")
     [void]$sb.AppendLine("</svg>")
     [System.IO.File]::WriteAllText((Join-Path $repoRoot $c.file), $sb.ToString(), (New-Object System.Text.UTF8Encoding($false)))
