@@ -8,9 +8,11 @@
 
 <br><br>
 
-<a href="https://github.com/AndersonCoronado357"><img src="btn-github.svg" height="40" alt="GitHub" /></a>
-&nbsp;&nbsp;
-<a href="mailto:andersoncoronado157@gmail.com"><img src="btn-email.svg" height="40" alt="Correo" /></a>
+<a href="https://github.com/AndersonCoronado357"><img src="ic-github.svg" height="40" alt="GitHub" /></a>
+<a href="mailto:andersoncoronado157@gmail.com"><img src="ic-email.svg" height="40" alt="Correo" /></a>
+<a href="https://www.linkedin.com"><img src="ic-linkedin.svg" height="40" alt="LinkedIn" /></a>
+<a href="https://www.instagram.com"><img src="ic-instagram.svg" height="40" alt="Instagram" /></a>
+<a href="https://x.com"><img src="ic-x.svg" height="40" alt="X" /></a>
 
 
 </div>
