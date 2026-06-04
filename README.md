@@ -8,12 +8,9 @@
 
 <br><br>
 
-<a href="https://github.com/AndersonCoronado357"><img src="https://img.shields.io/badge/GitHub-AndersonCoronado357-21262d?style=flat&logo=github&logoColor=31AED8&labelColor=0d1117" alt="GitHub" /></a>
-<a href="mailto:andersoncoronado157@gmail.com"><img src="https://img.shields.io/badge/Gmail-Cont%C3%A1ctame-21262d?style=flat&logo=gmail&logoColor=31AED8&labelColor=0d1117" alt="Email" /></a>
-<img src="https://komarev.com/ghpvc/?username=AndersonCoronado357&label=Visitas&color=21262d&style=flat&labelColor=0d1117" alt="Visitas al perfil" />
-<!-- Dame tu URL y activo este boton de LinkedIn:
-<a href="TU_URL_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Conectar-21262d?style=flat&logo=linkedin&logoColor=31AED8&labelColor=0d1117" alt="LinkedIn" /></a>
--->
+<a href="https://github.com/AndersonCoronado357"><img src="btn-github.svg" height="40" alt="GitHub" /></a>
+&nbsp;&nbsp;
+<a href="mailto:andersoncoronado157@gmail.com"><img src="btn-email.svg" height="40" alt="Correo" /></a>
 
 
 </div>
