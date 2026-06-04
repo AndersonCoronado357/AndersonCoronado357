@@ -39,7 +39,8 @@ Desarrollador de software enfocado en el desarrollo web full stack: construyo ap
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,js,cs,php,html,css,svelte,laravel,nodejs,postgres,git,github,vscode&perline=13" alt="Tecnologías" />
+<img src="https://skillicons.dev/icons?i=ts,js,cs,php,html,css,svelte,laravel,nodejs,electron,postgres,git,github,vscode&perline=14" alt="Tecnologías" />
+<img src="https://api.iconify.design/simple-icons/microsoftsqlserver.svg?color=%23CC2927&height=48" alt="SQL Server" />
 
 </div>
 

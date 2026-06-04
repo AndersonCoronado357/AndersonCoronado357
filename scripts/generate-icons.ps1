@@ -22,12 +22,13 @@ $contacts = @(
 foreach ($c in $contacts) {
   try {
     $d = Get-IconPath $c.icon
-    $S = 44; $cx = 22; $cy = 22; $r = 21
+    $S = 48; $cx = 24; $cy = 24; $r = 21
     $isz = 22; $scale = [math]::Round($isz / 24, 4); $ioff = [math]::Round($cx - $isz / 2, 2)
     $sb = New-Object System.Text.StringBuilder
     [void]$sb.AppendLine("<svg xmlns='http://www.w3.org/2000/svg' width='$S' height='$S' viewBox='0 0 $S $S' role='img'>")
-    [void]$sb.AppendLine("<circle cx='$cx' cy='$cy' r='$r' fill='#f2f4f6'/>")
-    [void]$sb.AppendLine("<g transform='translate($ioff,$ioff) scale($scale)'><path d='$($d)' fill='#31AED8'/></g>")
+    [void]$sb.AppendLine("<defs><filter id='s' x='-40%' y='-40%' width='180%' height='180%'><feDropShadow dx='0' dy='1.5' stdDeviation='1.6' flood-color='#0b1a2b' flood-opacity='0.35'/></filter></defs>")
+    [void]$sb.AppendLine("<circle cx='$cx' cy='$cy' r='$r' fill='#ffffff' filter='url(#s)'/>")
+    [void]$sb.AppendLine("<g transform='translate($ioff,$ioff) scale($scale)'><path d='$($d)' fill='#1b1f24'/></g>")
     [void]$sb.AppendLine("</svg>")
     [System.IO.File]::WriteAllText((Join-Path $repoRoot $c.file), $sb.ToString(), (New-Object System.Text.UTF8Encoding($false)))
     Write-Output "OK $($c.file)"
