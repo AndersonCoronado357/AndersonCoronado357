@@ -41,7 +41,8 @@ Desarrollador de software enfocado en el desarrollo web full stack: construyo ap
 
 **Lenguajes**
 
-<img src="https://skillicons.dev/icons?i=ts,js,cs,php,html,css&perline=6" alt="Lenguajes" />
+<img src="https://skillicons.dev/icons?i=ts,js,cs,html,css&perline=6" alt="Lenguajes" />
+<img src="https://api.iconify.design/logos/php.svg?height=48" alt="PHP" />
 
 **Frameworks y entornos**
 
