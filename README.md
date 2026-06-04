@@ -8,15 +8,15 @@
 
 <br><br>
 
-<a href="https://github.com/AndersonCoronado357"><img src="ic-github.svg" height="40" alt="GitHub" /></a>
-<br>
-<a href="mailto:andersoncoronado157@gmail.com"><img src="ic-email.svg" height="40" alt="Correo" /></a>
-<br>
-<a href="https://www.linkedin.com"><img src="ic-linkedin.svg" height="40" alt="LinkedIn" /></a>
-<br>
-<a href="https://www.whatsapp.com"><img src="ic-whatsapp.svg" height="40" alt="WhatsApp" /></a>
-<br>
-<a href="https://open.spotify.com"><img src="ic-spotify.svg" height="40" alt="Spotify" /></a>
+<a href="https://github.com/AndersonCoronado357"><img src="ic-github.svg" height="44" alt="GitHub" /></a>
+&nbsp;&nbsp;
+<a href="mailto:andersoncoronado157@gmail.com"><img src="ic-email.svg" height="44" alt="Correo" /></a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com"><img src="ic-linkedin.svg" height="44" alt="LinkedIn" /></a>
+&nbsp;&nbsp;
+<a href="https://www.whatsapp.com"><img src="ic-whatsapp.svg" height="44" alt="WhatsApp" /></a>
+&nbsp;&nbsp;
+<a href="https://open.spotify.com"><img src="ic-spotify.svg" height="44" alt="Spotify" /></a>
 
 
 </div>
