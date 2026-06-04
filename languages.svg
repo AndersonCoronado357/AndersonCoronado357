@@ -1,0 +1,38 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='520' height='241' viewBox='0 0 520 241' role='img'>
+<style>text{font-family:'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif}</style>
+<rect x='0.5' y='0.5' width='519' height='240' rx='14' fill='#0d1117' stroke='#30363d'/>
+<text x='24' y='38' fill='#e6edf3' font-size='18' font-weight='600'>Lenguajes mas usados</text>
+<rect x='24' y='46' width='34' height='3' rx='1.5' fill='#31AED8'/>
+<text x='24' y='64' fill='#8b949e' font-size='11'>Incluye repositorios privados &#183; se actualiza automaticamente</text>
+<defs><clipPath id='bar'><rect x='24' y='74' width='472' height='16' rx='8'/></clipPath></defs>
+<g clip-path='url(#bar)'>
+<rect x='24' y='74' width='472' height='16' fill='#21262d'/>
+<rect x='24' y='74' width='175.58' height='16' fill='#f1e05a'/>
+<rect x='199.58' y='74' width='145.85' height='16' fill='#3178c6'/>
+<rect x='345.43' y='74' width='43.42' height='16' fill='#f7523f'/>
+<rect x='388.85' y='74' width='41.06' height='16' fill='#ff3e00'/>
+<rect x='429.91' y='74' width='28.79' height='16' fill='#4F5D95'/>
+<rect x='458.7' y='74' width='10.86' height='16' fill='#563d7c'/>
+<rect x='469.56' y='74' width='10.86' height='16' fill='#336790'/>
+<rect x='480.42' y='74' width='9.91' height='16' fill='#e34c26'/>
+<rect x='490.33' y='74' width='6.14' height='16' fill='#8b949e'/>
+</g>
+<circle cx='29' cy='106' r='5' fill='#f1e05a'/>
+<text x='42' y='110' fill='#d4dde4' font-size='12.5'>JavaScript <tspan fill='#f1e05a' font-weight='700'>37.2%</tspan></text>
+<circle cx='273' cy='106' r='5' fill='#3178c6'/>
+<text x='286' y='110' fill='#d4dde4' font-size='12.5'>TypeScript <tspan fill='#3178c6' font-weight='700'>30.9%</tspan></text>
+<circle cx='29' cy='131' r='5' fill='#f7523f'/>
+<text x='42' y='135' fill='#d4dde4' font-size='12.5'>Blade <tspan fill='#f7523f' font-weight='700'>9.2%</tspan></text>
+<circle cx='273' cy='131' r='5' fill='#ff3e00'/>
+<text x='286' y='135' fill='#d4dde4' font-size='12.5'>Svelte <tspan fill='#ff3e00' font-weight='700'>8.7%</tspan></text>
+<circle cx='29' cy='156' r='5' fill='#4F5D95'/>
+<text x='42' y='160' fill='#d4dde4' font-size='12.5'>PHP <tspan fill='#4F5D95' font-weight='700'>6.1%</tspan></text>
+<circle cx='273' cy='156' r='5' fill='#563d7c'/>
+<text x='286' y='160' fill='#d4dde4' font-size='12.5'>CSS <tspan fill='#563d7c' font-weight='700'>2.3%</tspan></text>
+<circle cx='29' cy='181' r='5' fill='#336790'/>
+<text x='42' y='185' fill='#d4dde4' font-size='12.5'>PLpgSQL <tspan fill='#336790' font-weight='700'>2.3%</tspan></text>
+<circle cx='273' cy='181' r='5' fill='#e34c26'/>
+<text x='286' y='185' fill='#d4dde4' font-size='12.5'>HTML <tspan fill='#e34c26' font-weight='700'>2.1%</tspan></text>
+<circle cx='29' cy='206' r='5' fill='#8b949e'/>
+<text x='42' y='210' fill='#d4dde4' font-size='12.5'>Otros <tspan fill='#8b949e' font-weight='700'>1.3%</tspan></text>
+</svg>

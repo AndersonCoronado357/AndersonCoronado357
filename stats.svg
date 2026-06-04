@@ -1,0 +1,17 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='520' height='150' viewBox='0 0 520 150' role='img'>
+<style>text{font-family:'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif}</style>
+<rect x='0.5' y='0.5' width='519' height='149' rx='14' fill='#0d1117' stroke='#30363d'/>
+<text x='24' y='40' fill='#e6edf3' font-size='18' font-weight='600'>GitHub en numeros</text>
+<rect x='24' y='48' width='34' height='3' rx='1.5' fill='#31AED8'/>
+<text x='83' y='108' fill='#31AED8' font-size='28' font-weight='700' text-anchor='middle'>8</text>
+<text x='83' y='130' fill='#8b949e' font-size='11' text-anchor='middle'>Repositorios</text>
+<line x1='142' y1='86' x2='142' y2='128' stroke='#21262d'/>
+<text x='201' y='108' fill='#31AED8' font-size='28' font-weight='700' text-anchor='middle'>4</text>
+<text x='201' y='130' fill='#8b949e' font-size='11' text-anchor='middle'>Privados</text>
+<line x1='260' y1='86' x2='260' y2='128' stroke='#21262d'/>
+<text x='319' y='108' fill='#31AED8' font-size='28' font-weight='700' text-anchor='middle'>11</text>
+<text x='319' y='130' fill='#8b949e' font-size='11' text-anchor='middle'>Lenguajes</text>
+<line x1='378' y1='86' x2='378' y2='128' stroke='#21262d'/>
+<text x='437' y='104' fill='#31AED8' font-size='15' font-weight='700' text-anchor='middle'>JavaScript</text>
+<text x='437' y='130' fill='#8b949e' font-size='11' text-anchor='middle'>Principal</text>
+</svg>

@@ -1,0 +1,35 @@
+name: Actualizar estadisticas de lenguajes
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # cada dia a las 04:00 UTC
+  workflow_dispatch:       # permite ejecutarlo manualmente
+
+permissions:
+  contents: write
+
+jobs:
+  languages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generar languages.svg (incluye repos privados)
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: ./scripts/generate-languages.ps1
+
+      - name: Commit si hay cambios
+        run: |
+          git config user.name "Anderson Coronado"
+          git config user.email "andersoncoronado157@gmail.com"
+          git add languages.svg stats.svg
+          if git diff --staged --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "Actualizar estadisticas [skip ci]"
+            git pull --rebase origin main || true
+            git push
+          fi
