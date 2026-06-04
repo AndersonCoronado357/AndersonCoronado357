@@ -1,5 +1,6 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='107' height='40' viewBox='0 0 107 40' role='img'>
-<circle cx='20' cy='20' r='19' fill='#f2f4f6'/>
-<g transform='translate(9,9) scale(0.9167)'><path d='M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64L12 9.548l6.545-4.91l1.528-1.145C21.69 2.28 24 3.434 24 5.457' fill='#16202b'/></g>
+<svg xmlns='http://www.w3.org/2000/svg' width='222' height='40' viewBox='0 0 222 40' role='img'>
+<defs><linearGradient id='c' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#31AED8'/><stop offset='1' stop-color='#295072'/></linearGradient></defs>
+<circle cx='20' cy='20' r='19' fill='url(#c)'/>
+<g transform='translate(9,9) scale(0.9167)'><path d='M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64L12 9.548l6.545-4.91l1.528-1.145C21.69 2.28 24 3.434 24 5.457' fill='#ffffff'/></g>
 <text x='50' y='25' font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size='15' font-weight='600' fill='#e9f3f8'>Correo</text>
 </svg>

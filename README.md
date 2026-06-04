@@ -9,10 +9,14 @@
 <br><br>
 
 <a href="https://github.com/AndersonCoronado357"><img src="ic-github.svg" height="40" alt="GitHub" /></a>
+<br>
 <a href="mailto:andersoncoronado157@gmail.com"><img src="ic-email.svg" height="40" alt="Correo" /></a>
+<br>
 <a href="https://www.linkedin.com"><img src="ic-linkedin.svg" height="40" alt="LinkedIn" /></a>
-<a href="https://www.instagram.com"><img src="ic-instagram.svg" height="40" alt="Instagram" /></a>
-<a href="https://x.com"><img src="ic-x.svg" height="40" alt="X" /></a>
+<br>
+<a href="https://www.whatsapp.com"><img src="ic-whatsapp.svg" height="40" alt="WhatsApp" /></a>
+<br>
+<a href="https://open.spotify.com"><img src="ic-spotify.svg" height="40" alt="Spotify" /></a>
 
 
 </div>
