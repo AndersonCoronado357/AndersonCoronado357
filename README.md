@@ -30,29 +30,65 @@ Programo porque disfruto construir. Para mí el software es como una obra de art
 
 ## Tecnologías
 
+Pasa el cursor sobre cada icono para ver su nombre.
+
 <div align="center">
 
 **Lenguajes**
 
-<img src="https://skillicons.dev/icons?i=ts,js,cs,python,java,html,css&perline=7" alt="Lenguajes" />
-<img src="tech-php.svg" height="48" alt="PHP" />
+<img src="https://skillicons.dev/icons?i=ts" title="TypeScript" alt="TypeScript" height="48" />
+<img src="https://skillicons.dev/icons?i=js" title="JavaScript" alt="JavaScript" height="48" />
+<img src="https://skillicons.dev/icons?i=cs" title="C#" alt="C#" height="48" />
+<img src="https://skillicons.dev/icons?i=python" title="Python" alt="Python" height="48" />
+<img src="https://skillicons.dev/icons?i=java" title="Java" alt="Java" height="48" />
+<img src="https://skillicons.dev/icons?i=html" title="HTML" alt="HTML" height="48" />
+<img src="https://skillicons.dev/icons?i=css" title="CSS" alt="CSS" height="48" />
+<img src="tech-php.svg" title="PHP" alt="PHP" height="48" />
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=react,angular,vue,svelte,nextjs,astro,tailwind,vite,sass,threejs&perline=10" alt="Frontend" />
+<img src="https://skillicons.dev/icons?i=react" title="React" alt="React" height="48" />
+<img src="https://skillicons.dev/icons?i=angular" title="Angular" alt="Angular" height="48" />
+<img src="https://skillicons.dev/icons?i=vue" title="Vue" alt="Vue" height="48" />
+<img src="https://skillicons.dev/icons?i=svelte" title="Svelte / SvelteKit" alt="Svelte" height="48" />
+<img src="https://skillicons.dev/icons?i=nextjs" title="Next.js" alt="Next.js" height="48" />
+<img src="https://skillicons.dev/icons?i=astro" title="Astro" alt="Astro" height="48" />
+<img src="https://skillicons.dev/icons?i=tailwind" title="Tailwind CSS" alt="Tailwind" height="48" />
+<img src="https://skillicons.dev/icons?i=vite" title="Vite" alt="Vite" height="48" />
+<img src="https://skillicons.dev/icons?i=sass" title="Sass" alt="Sass" height="48" />
+<img src="https://skillicons.dev/icons?i=threejs" title="Three.js" alt="Three.js" height="48" />
 
 **Backend**
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,laravel,dotnet,nestjs,graphql&perline=6" alt="Backend" />
+<img src="https://skillicons.dev/icons?i=nodejs" title="Node.js" alt="Node.js" height="48" />
+<img src="https://skillicons.dev/icons?i=express" title="Express" alt="Express" height="48" />
+<img src="https://skillicons.dev/icons?i=laravel" title="Laravel" alt="Laravel" height="48" />
+<img src="https://skillicons.dev/icons?i=dotnet" title=".NET" alt=".NET" height="48" />
+<img src="https://skillicons.dev/icons?i=nestjs" title="NestJS" alt="NestJS" height="48" />
+<img src="https://skillicons.dev/icons?i=graphql" title="GraphQL" alt="GraphQL" height="48" />
 
 **Bases de datos**
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,redis,supabase,prisma,firebase&perline=8" alt="Bases de datos" />
-<img src="tech-sqlserver.svg" height="48" alt="SQL Server" />
+<img src="https://skillicons.dev/icons?i=postgres" title="PostgreSQL" alt="PostgreSQL" height="48" />
+<img src="https://skillicons.dev/icons?i=mysql" title="MySQL" alt="MySQL" height="48" />
+<img src="https://skillicons.dev/icons?i=mongodb" title="MongoDB" alt="MongoDB" height="48" />
+<img src="https://skillicons.dev/icons?i=sqlite" title="SQLite" alt="SQLite" height="48" />
+<img src="https://skillicons.dev/icons?i=redis" title="Redis" alt="Redis" height="48" />
+<img src="https://skillicons.dev/icons?i=supabase" title="Supabase" alt="Supabase" height="48" />
+<img src="https://skillicons.dev/icons?i=prisma" title="Prisma" alt="Prisma" height="48" />
+<img src="https://skillicons.dev/icons?i=firebase" title="Firebase" alt="Firebase" height="48" />
+<img src="tech-sqlserver.svg" title="SQL Server" alt="SQL Server" height="48" />
 
 **Herramientas**
 
-<img src="https://skillicons.dev/icons?i=git,github,docker,electron,vitest,figma,linux,postman&perline=8" alt="Herramientas" />
+<img src="https://skillicons.dev/icons?i=git" title="Git" alt="Git" height="48" />
+<img src="https://skillicons.dev/icons?i=github" title="GitHub" alt="GitHub" height="48" />
+<img src="https://skillicons.dev/icons?i=docker" title="Docker" alt="Docker" height="48" />
+<img src="https://skillicons.dev/icons?i=electron" title="Electron" alt="Electron" height="48" />
+<img src="https://skillicons.dev/icons?i=vitest" title="Vitest" alt="Vitest" height="48" />
+<img src="https://skillicons.dev/icons?i=figma" title="Figma" alt="Figma" height="48" />
+<img src="https://skillicons.dev/icons?i=linux" title="Linux" alt="Linux" height="48" />
+<img src="https://skillicons.dev/icons?i=postman" title="Postman" alt="Postman" height="48" />
 
 </div>
 
