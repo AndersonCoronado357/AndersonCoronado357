@@ -1,6 +1,6 @@
 # Genera languages.svg y stats.svg con datos de TODOS los repos (publicos y
 # privados). Diseno sobrio: fondo neutro oscuro, escala de grises y el cian
-# #31AED8 solo como acento minimo. Token: GH_TOKEN / GITHUB_TOKEN o GCM.
+# #e5b80b solo como acento minimo. Token: GH_TOKEN / GITHUB_TOKEN o GCM.
 $ErrorActionPreference = "Stop"
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
@@ -79,7 +79,7 @@ $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine("<style>text{font-family:$ff}</style>")
 [void]$sb.AppendLine("<rect x='0.5' y='0.5' width='$($W-1)' height='$($H-1)' rx='14' fill='#0d1117' stroke='#30363d'/>")
 [void]$sb.AppendLine("<text x='$pad' y='38' fill='#e6edf3' font-size='18' font-weight='600'>Lenguajes mas usados</text>")
-[void]$sb.AppendLine("<rect x='$pad' y='46' width='34' height='3' rx='1.5' fill='#31AED8'/>")
+[void]$sb.AppendLine("<rect x='$pad' y='46' width='34' height='3' rx='1.5' fill='#e5b80b'/>")
 [void]$sb.AppendLine("<text x='$pad' y='64' fill='#8b949e' font-size='11'>Incluye repositorios privados &#183; se actualiza automaticamente</text>")
 [void]$sb.AppendLine("<defs><clipPath id='bar'><rect x='$barX' y='$barY' width='$barW' height='$barH' rx='8'/></clipPath></defs>")
 [void]$sb.AppendLine("<g clip-path='url(#bar)'>")
@@ -124,14 +124,14 @@ $s2 = New-Object System.Text.StringBuilder
 [void]$s2.AppendLine("<style>text{font-family:$ff}</style>")
 [void]$s2.AppendLine("<rect x='0.5' y='0.5' width='$($SW-1)' height='$($SH-1)' rx='14' fill='#0d1117' stroke='#30363d'/>")
 [void]$s2.AppendLine("<text x='$sp' y='40' fill='#e6edf3' font-size='18' font-weight='600'>GitHub en numeros</text>")
-[void]$s2.AppendLine("<rect x='$sp' y='48' width='34' height='3' rx='1.5' fill='#31AED8'/>")
+[void]$s2.AppendLine("<rect x='$sp' y='48' width='34' height='3' rx='1.5' fill='#e5b80b'/>")
 for ($i = 0; $i -lt $tiles.Count; $i++) {
   $cxc = [int]($sp + $i * $tw + $tw / 2)
   if ($i -gt 0) { $lx = [int]($sp + $i * $tw); [void]$s2.AppendLine("<line x1='$lx' y1='86' x2='$lx' y2='128' stroke='#21262d'/>") }
   $val = $tiles[$i].v -replace '&', '&amp;'
   $fs = if ($val -match '^\d+$') { 28 } else { 15 }
   $vy = if ($val -match '^\d+$') { 108 } else { 104 }
-  [void]$s2.AppendLine("<text x='$cxc' y='$vy' fill='#31AED8' font-size='$fs' font-weight='700' text-anchor='middle'>$val</text>")
+  [void]$s2.AppendLine("<text x='$cxc' y='$vy' fill='#e5b80b' font-size='$fs' font-weight='700' text-anchor='middle'>$val</text>")
   [void]$s2.AppendLine("<text x='$cxc' y='130' fill='#8b949e' font-size='11' text-anchor='middle'>$($tiles[$i].l)</text>")
 }
 [void]$s2.AppendLine("</svg>")
