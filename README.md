@@ -150,6 +150,10 @@ Desarrollo a medida para los procesos del hospital: manejo GS1 de insumos, progr
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=AndersonCoronado357&bg_color=0d1117&color=E5B80B&line=E5B80B&point=fff0b0&area=true&hide_border=true&radius=10" width="100%" alt="Gráfico de actividad" />
 
+<br><br>
+
+<img src="snake.svg" width="100%" alt="Serpiente de contribuciones" />
+
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:f6d24b,100:e5b80b&section=footer" width="100%" alt="" />
