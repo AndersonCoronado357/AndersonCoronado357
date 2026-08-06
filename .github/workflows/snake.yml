@@ -12,17 +12,25 @@ jobs:
   snake:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Generar SVG de la serpiente
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=#e6edf3&color_dots=#1b2533,#295072,#2b78a0,#30a0cb,#31AED8
+            snake.svg?color_snake=#e6edf3&color_dots=#1b2028,#4a3f14,#8a7415,#c39a14,#e5b80b
 
-      - name: Publicar en la rama output
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit a main a tu nombre
+        run: |
+          git config user.name "Anderson Coronado"
+          git config user.email "andersoncoronado157@gmail.com"
+          git add snake.svg
+          if git diff --staged --quiet; then
+            echo "sin cambios"
+          else
+            git commit -m "Actualizar serpiente [skip ci]"
+            git pull --rebase origin main || true
+            git push
+          fi
