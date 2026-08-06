@@ -7,18 +7,18 @@
 <defs><clipPath id='bar'><rect x='24' y='74' width='472' height='16' rx='8'/></clipPath></defs>
 <g clip-path='url(#bar)'>
 <rect x='24' y='74' width='472' height='16' fill='#21262d'/>
-<rect x='24' y='74' width='202.02' height='16' fill='#3178c6'/>
-<rect x='226.02' y='74' width='111.86' height='16' fill='#f1e05a'/>
-<rect x='337.88' y='74' width='38.7' height='16' fill='#41b883'/>
-<rect x='376.58' y='74' width='33.51' height='16' fill='#ff3e00'/>
-<rect x='410.09' y='74' width='25.02' height='16' fill='#f7523f'/>
-<rect x='435.11' y='74' width='19.82' height='16' fill='#e34c26'/>
-<rect x='454.93' y='74' width='16.52' height='16' fill='#4F5D95'/>
-<rect x='471.45' y='74' width='9.44' height='16' fill='#563d7c'/>
-<rect x='480.89' y='74' width='15.1' height='16' fill='#8b949e'/>
+<rect x='24' y='74' width='202.49' height='16' fill='#3178c6'/>
+<rect x='226.49' y='74' width='111.86' height='16' fill='#f1e05a'/>
+<rect x='338.35' y='74' width='38.7' height='16' fill='#41b883'/>
+<rect x='377.05' y='74' width='33.51' height='16' fill='#ff3e00'/>
+<rect x='410.56' y='74' width='25.02' height='16' fill='#f7523f'/>
+<rect x='435.58' y='74' width='19.82' height='16' fill='#e34c26'/>
+<rect x='455.4' y='74' width='16.52' height='16' fill='#4F5D95'/>
+<rect x='471.92' y='74' width='9.44' height='16' fill='#563d7c'/>
+<rect x='481.36' y='74' width='15.1' height='16' fill='#8b949e'/>
 </g>
 <circle cx='29' cy='106' r='5' fill='#3178c6'/>
-<text x='42' y='110' fill='#d4dde4' font-size='12.5'>TypeScript <tspan fill='#3178c6' font-weight='700'>42.8%</tspan></text>
+<text x='42' y='110' fill='#d4dde4' font-size='12.5'>TypeScript <tspan fill='#3178c6' font-weight='700'>42.9%</tspan></text>
 <circle cx='273' cy='106' r='5' fill='#f1e05a'/>
 <text x='286' y='110' fill='#d4dde4' font-size='12.5'>JavaScript <tspan fill='#f1e05a' font-weight='700'>23.7%</tspan></text>
 <circle cx='29' cy='131' r='5' fill='#41b883'/>
