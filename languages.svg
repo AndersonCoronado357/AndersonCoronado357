@@ -7,18 +7,18 @@
 <defs><clipPath id='bar'><rect x='24' y='74' width='472' height='16' rx='8'/></clipPath></defs>
 <g clip-path='url(#bar)'>
 <rect x='24' y='74' width='472' height='16' fill='#21262d'/>
-<rect x='24' y='74' width='202.49' height='16' fill='#3178c6'/>
-<rect x='226.49' y='74' width='111.86' height='16' fill='#f1e05a'/>
-<rect x='338.35' y='74' width='38.7' height='16' fill='#41b883'/>
-<rect x='377.05' y='74' width='33.51' height='16' fill='#ff3e00'/>
-<rect x='410.56' y='74' width='25.02' height='16' fill='#f7523f'/>
-<rect x='435.58' y='74' width='19.82' height='16' fill='#e34c26'/>
-<rect x='455.4' y='74' width='16.52' height='16' fill='#4F5D95'/>
+<rect x='24' y='74' width='202.96' height='16' fill='#3178c6'/>
+<rect x='226.96' y='74' width='111.86' height='16' fill='#f1e05a'/>
+<rect x='338.82' y='74' width='38.7' height='16' fill='#41b883'/>
+<rect x='377.52' y='74' width='33.51' height='16' fill='#ff3e00'/>
+<rect x='411.03' y='74' width='25.02' height='16' fill='#f7523f'/>
+<rect x='436.05' y='74' width='19.82' height='16' fill='#e34c26'/>
+<rect x='455.87' y='74' width='16.05' height='16' fill='#4F5D95'/>
 <rect x='471.92' y='74' width='9.44' height='16' fill='#563d7c'/>
 <rect x='481.36' y='74' width='15.1' height='16' fill='#8b949e'/>
 </g>
 <circle cx='29' cy='106' r='5' fill='#3178c6'/>
-<text x='42' y='110' fill='#d4dde4' font-size='12.5'>TypeScript <tspan fill='#3178c6' font-weight='700'>42.9%</tspan></text>
+<text x='42' y='110' fill='#d4dde4' font-size='12.5'>TypeScript <tspan fill='#3178c6' font-weight='700'>43%</tspan></text>
 <circle cx='273' cy='106' r='5' fill='#f1e05a'/>
 <text x='286' y='110' fill='#d4dde4' font-size='12.5'>JavaScript <tspan fill='#f1e05a' font-weight='700'>23.7%</tspan></text>
 <circle cx='29' cy='131' r='5' fill='#41b883'/>
@@ -30,7 +30,7 @@
 <circle cx='273' cy='156' r='5' fill='#e34c26'/>
 <text x='286' y='160' fill='#d4dde4' font-size='12.5'>HTML <tspan fill='#e34c26' font-weight='700'>4.2%</tspan></text>
 <circle cx='29' cy='181' r='5' fill='#4F5D95'/>
-<text x='42' y='185' fill='#d4dde4' font-size='12.5'>PHP <tspan fill='#4F5D95' font-weight='700'>3.5%</tspan></text>
+<text x='42' y='185' fill='#d4dde4' font-size='12.5'>PHP <tspan fill='#4F5D95' font-weight='700'>3.4%</tspan></text>
 <circle cx='273' cy='181' r='5' fill='#563d7c'/>
 <text x='286' y='185' fill='#d4dde4' font-size='12.5'>CSS <tspan fill='#563d7c' font-weight='700'>2%</tspan></text>
 <circle cx='29' cy='206' r='5' fill='#8b949e'/>
