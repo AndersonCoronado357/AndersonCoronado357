@@ -7,32 +7,32 @@
 <defs><clipPath id='bar'><rect x='24' y='74' width='472' height='16' rx='8'/></clipPath></defs>
 <g clip-path='url(#bar)'>
 <rect x='24' y='74' width='472' height='16' fill='#21262d'/>
-<rect x='24' y='74' width='213.34' height='16' fill='#3178c6'/>
-<rect x='237.34' y='74' width='108.56' height='16' fill='#f1e05a'/>
-<rect x='345.9' y='74' width='35.87' height='16' fill='#41b883'/>
-<rect x='381.77' y='74' width='31.15' height='16' fill='#ff3e00'/>
-<rect x='412.92' y='74' width='23.13' height='16' fill='#f7523f'/>
-<rect x='436.05' y='74' width='20.3' height='16' fill='#e34c26'/>
-<rect x='456.35' y='74' width='15.1' height='16' fill='#4F5D95'/>
-<rect x='471.45' y='74' width='10.38' height='16' fill='#563d7c'/>
-<rect x='481.83' y='74' width='14.16' height='16' fill='#8b949e'/>
+<rect x='24' y='74' width='223.73' height='16' fill='#3178c6'/>
+<rect x='247.73' y='74' width='104.31' height='16' fill='#f1e05a'/>
+<rect x='352.04' y='74' width='34.46' height='16' fill='#41b883'/>
+<rect x='386.5' y='74' width='29.74' height='16' fill='#ff3e00'/>
+<rect x='416.24' y='74' width='22.18' height='16' fill='#f7523f'/>
+<rect x='438.42' y='74' width='19.35' height='16' fill='#e34c26'/>
+<rect x='457.77' y='74' width='14.63' height='16' fill='#4F5D95'/>
+<rect x='472.4' y='74' width='10.38' height='16' fill='#563d7c'/>
+<rect x='482.78' y='74' width='13.69' height='16' fill='#8b949e'/>
 </g>
 <circle cx='29' cy='106' r='5' fill='#3178c6'/>
-<text x='42' y='110' fill='#d4dde4' font-size='12.5'>TypeScript <tspan fill='#3178c6' font-weight='700'>45.2%</tspan></text>
+<text x='42' y='110' fill='#d4dde4' font-size='12.5'>TypeScript <tspan fill='#3178c6' font-weight='700'>47.4%</tspan></text>
 <circle cx='273' cy='106' r='5' fill='#f1e05a'/>
-<text x='286' y='110' fill='#d4dde4' font-size='12.5'>JavaScript <tspan fill='#f1e05a' font-weight='700'>23%</tspan></text>
+<text x='286' y='110' fill='#d4dde4' font-size='12.5'>JavaScript <tspan fill='#f1e05a' font-weight='700'>22.1%</tspan></text>
 <circle cx='29' cy='131' r='5' fill='#41b883'/>
-<text x='42' y='135' fill='#d4dde4' font-size='12.5'>Vue <tspan fill='#41b883' font-weight='700'>7.6%</tspan></text>
+<text x='42' y='135' fill='#d4dde4' font-size='12.5'>Vue <tspan fill='#41b883' font-weight='700'>7.3%</tspan></text>
 <circle cx='273' cy='131' r='5' fill='#ff3e00'/>
-<text x='286' y='135' fill='#d4dde4' font-size='12.5'>Svelte <tspan fill='#ff3e00' font-weight='700'>6.6%</tspan></text>
+<text x='286' y='135' fill='#d4dde4' font-size='12.5'>Svelte <tspan fill='#ff3e00' font-weight='700'>6.3%</tspan></text>
 <circle cx='29' cy='156' r='5' fill='#f7523f'/>
-<text x='42' y='160' fill='#d4dde4' font-size='12.5'>Blade <tspan fill='#f7523f' font-weight='700'>4.9%</tspan></text>
+<text x='42' y='160' fill='#d4dde4' font-size='12.5'>Blade <tspan fill='#f7523f' font-weight='700'>4.7%</tspan></text>
 <circle cx='273' cy='156' r='5' fill='#e34c26'/>
-<text x='286' y='160' fill='#d4dde4' font-size='12.5'>HTML <tspan fill='#e34c26' font-weight='700'>4.3%</tspan></text>
+<text x='286' y='160' fill='#d4dde4' font-size='12.5'>HTML <tspan fill='#e34c26' font-weight='700'>4.1%</tspan></text>
 <circle cx='29' cy='181' r='5' fill='#4F5D95'/>
-<text x='42' y='185' fill='#d4dde4' font-size='12.5'>PHP <tspan fill='#4F5D95' font-weight='700'>3.2%</tspan></text>
+<text x='42' y='185' fill='#d4dde4' font-size='12.5'>PHP <tspan fill='#4F5D95' font-weight='700'>3.1%</tspan></text>
 <circle cx='273' cy='181' r='5' fill='#563d7c'/>
 <text x='286' y='185' fill='#d4dde4' font-size='12.5'>CSS <tspan fill='#563d7c' font-weight='700'>2.2%</tspan></text>
 <circle cx='29' cy='206' r='5' fill='#8b949e'/>
-<text x='42' y='210' fill='#d4dde4' font-size='12.5'>Otros <tspan fill='#8b949e' font-weight='700'>3%</tspan></text>
+<text x='42' y='210' fill='#d4dde4' font-size='12.5'>Otros <tspan fill='#8b949e' font-weight='700'>2.9%</tspan></text>
 </svg>
