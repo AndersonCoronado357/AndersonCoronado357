@@ -21,11 +21,17 @@ jobs:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
         run: ./scripts/generate-languages.ps1
 
+      - name: Generar activity.svg
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: ./scripts/generate-activity.ps1
+
       - name: Commit si hay cambios
         run: |
           git config user.name "Anderson Coronado"
           git config user.email "andersoncoronado157@gmail.com"
-          git add languages.svg stats.svg
+          git add languages.svg stats.svg activity.svg
           if git diff --staged --quiet; then
             echo "Sin cambios"
           else
