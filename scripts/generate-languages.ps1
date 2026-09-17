@@ -1,5 +1,5 @@
 # Genera languages.svg y stats.svg con datos de TODOS los repos (publicos y
-# privados). Diseno sobrio: fondo neutro oscuro, escala de grises y el cian
+# privados). Diseno sobrio: fondo neutro oscuro, escala de grises y el amarillo
 # #e5b80b solo como acento minimo. Token: GH_TOKEN / GITHUB_TOKEN o GCM.
 $ErrorActionPreference = "Stop"
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
@@ -80,7 +80,7 @@ $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine("<rect x='0.5' y='0.5' width='$($W-1)' height='$($H-1)' rx='14' fill='#0d1117' stroke='#30363d'/>")
 [void]$sb.AppendLine("<text x='$pad' y='38' fill='#e6edf3' font-size='18' font-weight='600'>Lenguajes mas usados</text>")
 [void]$sb.AppendLine("<rect x='$pad' y='46' width='34' height='3' rx='1.5' fill='#e5b80b'/>")
-[void]$sb.AppendLine("<text x='$pad' y='64' fill='#8b949e' font-size='11'>Incluye repositorios privados &#183; se actualiza automaticamente</text>")
+[void]$sb.AppendLine("<text x='$pad' y='64' fill='#8b949e' font-size='11'>Todos mis repositorios &#183; se actualiza automaticamente</text>")
 [void]$sb.AppendLine("<defs><clipPath id='bar'><rect x='$barX' y='$barY' width='$barW' height='$barH' rx='8'/></clipPath></defs>")
 [void]$sb.AppendLine("<g clip-path='url(#bar)'>")
 [void]$sb.AppendLine("<rect x='$barX' y='$barY' width='$barW' height='$barH' fill='#21262d'/>")
@@ -109,10 +109,24 @@ foreach ($it in $items) {
 $distinct = $lang.Count
 $principal = $top[0].Key
 $totalRepos = $repos.Count
-$priv = (@($repos | Where-Object { $_.private }).Count)
+
+# Contribuciones del ultimo anno: reemplaza al conteo de repos privados, que
+# desde que todo es publico ya no dice nada.
+$login = $env:GITHUB_REPOSITORY_OWNER
+if (-not $login) { $login = (Invoke-RestMethod -Uri "https://api.github.com/user" -Headers $headers).login }
+$hasta = (Get-Date).ToUniversalTime()
+$desde = $hasta.AddYears(-1)
+$q = 'query($login:String!,$from:DateTime!,$to:DateTime!){user(login:$login){contributionsCollection(from:$from,to:$to){contributionCalendar{totalContributions}}}}'
+$gql = @{ query = $q; variables = @{ login = $login; from = $desde.ToString("yyyy-MM-ddTHH:mm:ssZ"); to = $hasta.ToString("yyyy-MM-ddTHH:mm:ssZ") } } | ConvertTo-Json -Depth 6 -Compress
+$contrib = 0
+try {
+  $gr = Invoke-RestMethod -Uri "https://api.github.com/graphql" -Method Post -Headers $headers -Body $gql -ContentType "application/json"
+  $contrib = [int]$gr.data.user.contributionsCollection.contributionCalendar.totalContributions
+} catch { }
+
 $tiles = @(
   @{ v = "$totalRepos"; l = "Repositorios" },
-  @{ v = "$priv"; l = "Privados" },
+  @{ v = "$contrib"; l = "Contribuciones" },
   @{ v = "$distinct"; l = "Lenguajes" },
   @{ v = "$principal"; l = "Principal" }
 )
@@ -137,4 +151,4 @@ for ($i = 0; $i -lt $tiles.Count; $i++) {
 [void]$s2.AppendLine("</svg>")
 [System.IO.File]::WriteAllText((Join-Path $repoRoot "stats.svg"), $s2.ToString(), (New-Object System.Text.UTF8Encoding($false)))
 
-Write-Output "WROTE languages.svg + stats.svg | langs=$n distinct=$distinct repos=$totalRepos priv=$priv principal=$principal total_bytes=$total"
+Write-Output "WROTE languages.svg + stats.svg | langs=$n distinct=$distinct repos=$totalRepos contrib=$contrib principal=$principal total_bytes=$total"
