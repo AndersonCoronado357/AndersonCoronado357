@@ -8,19 +8,19 @@
 <g clip-path='url(#bar)'>
 <rect x='24' y='74' width='472' height='16' fill='#21262d'/>
 <rect x='24' y='74' width='223.73' height='16' fill='#3178c6'/>
-<rect x='247.73' y='74' width='104.31' height='16' fill='#f1e05a'/>
-<rect x='352.04' y='74' width='34.46' height='16' fill='#41b883'/>
-<rect x='386.5' y='74' width='29.74' height='16' fill='#ff3e00'/>
-<rect x='416.24' y='74' width='22.18' height='16' fill='#f7523f'/>
-<rect x='438.42' y='74' width='19.35' height='16' fill='#e34c26'/>
-<rect x='457.77' y='74' width='14.63' height='16' fill='#4F5D95'/>
-<rect x='472.4' y='74' width='10.38' height='16' fill='#563d7c'/>
-<rect x='482.78' y='74' width='13.69' height='16' fill='#8b949e'/>
+<rect x='247.73' y='74' width='103.84' height='16' fill='#f1e05a'/>
+<rect x='351.57' y='74' width='34.46' height='16' fill='#41b883'/>
+<rect x='386.03' y='74' width='29.74' height='16' fill='#ff3e00'/>
+<rect x='415.77' y='74' width='22.18' height='16' fill='#f7523f'/>
+<rect x='437.95' y='74' width='19.35' height='16' fill='#e34c26'/>
+<rect x='457.3' y='74' width='14.63' height='16' fill='#4F5D95'/>
+<rect x='471.93' y='74' width='10.38' height='16' fill='#563d7c'/>
+<rect x='482.31' y='74' width='13.69' height='16' fill='#8b949e'/>
 </g>
 <circle cx='29' cy='106' r='5' fill='#3178c6'/>
 <text x='42' y='110' fill='#d4dde4' font-size='12.5'>TypeScript <tspan fill='#3178c6' font-weight='700'>47.4%</tspan></text>
 <circle cx='273' cy='106' r='5' fill='#f1e05a'/>
-<text x='286' y='110' fill='#d4dde4' font-size='12.5'>JavaScript <tspan fill='#f1e05a' font-weight='700'>22.1%</tspan></text>
+<text x='286' y='110' fill='#d4dde4' font-size='12.5'>JavaScript <tspan fill='#f1e05a' font-weight='700'>22%</tspan></text>
 <circle cx='29' cy='131' r='5' fill='#41b883'/>
 <text x='42' y='135' fill='#d4dde4' font-size='12.5'>Vue <tspan fill='#41b883' font-weight='700'>7.3%</tspan></text>
 <circle cx='273' cy='131' r='5' fill='#ff3e00'/>
